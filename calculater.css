@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    user-select: none;
 
 }
 
@@ -50,7 +51,7 @@
     background-color: orange;
 }
 .faded-white{
-    background-color: #e5cece;
+    background-color: #b3aaaaf6;
 }
 
 .number:hover{
@@ -62,5 +63,5 @@
     box-shadow: 0 5px #666;
     border-radius: 5px;
     transform: translatey(1px);
-
+    
 }

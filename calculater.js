@@ -28,13 +28,17 @@ for(let i = 0 ; i<button.length ; i++) {
                     str = `${oldValue}${event.target.innerHTML}` ;
                     break ;  
                 }
-
+                if(str.length >12) {
+                    alert("we are sorry sir , right now we support only 12 numbers to calculate") ; 
+                    str = "" ; 
+                }
                 inputArea.value=str ; 
 
                  }
             
                  catch(e){
                      inputArea.value = "wrong input" ;
+                     console.log(e) ;
 
                  }
             } 
